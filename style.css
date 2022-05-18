@@ -1,0 +1,20 @@
+.section::before{
+    content: "";
+    background:url(./assets/bg1.jpg) no-repeat center center/cover;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+}
+.text-parent{
+    display: flex;
+    flex-direction: column;
+    padding: 3px 200px;
+    justify-content: center;
+    align-items: center;
+    height:1451px;
+    color: rgb(225, 226, 220);
+    font-family: 'Baloo Bhai',cursive;
+    font-size: 2.8rem;
+    
+}
